@@ -14,6 +14,7 @@ import socket
 from datetime import datetime
 import json
 from IPy import IP
+appVersion="1.0.0.0"
 print("Starting Identify. . . ")
 
 from geopy.geocoders import Nominatim
@@ -308,3 +309,4 @@ def monitor_summary(loop_amount, total_loop_amount, result):
 
 if __name__ == '__main__':
     menu()
+
