@@ -6,7 +6,7 @@ from datetime import datetime
 from prettytable import PrettyTable
 from tqdm import tqdm
 from vulnerable_ports import vulnerable_ports
-appVersion="1.0.0.0"
+appVersion="1.0.0.1"
 
 # Result folder
 RESULT_FOLDER = "Portscan_Results"
@@ -209,4 +209,5 @@ if __name__ == "__main__":
     save_results(target_ip, args.threads, args.protocol, port_list_for_save)
 
     # Prompt user to select from open ports
+
     select_open_ports()
